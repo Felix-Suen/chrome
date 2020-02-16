@@ -46,24 +46,24 @@ class App extends React.Component {
           background={'#191970'}
         />
         <h1 className="day">{this.state.daynum} Days</h1>
-        
+
         <div className="row">
           <div className="column">
             <a href="https://www.google.com"><div className="invibutton"></div></a>
           </div>
           <div className="column">
-            <a href="https://www.google.com"><div className="invibutton"></div></a>
+            <a href="https://www.youtube.com"><div className="invibutton"></div></a>
           </div>
         </div>
 
         <div className="row">
-        <div className="column">
-          <a href="https://www.google.com"><div className="invibutton"></div></a>
+          <div className="column">
+            <a href="https://www.messenger.com"><div className="invibutton"></div></a>
+          </div>
+          <div className="column">
+            <a href="https://www.gmail.com"><div className="invibutton"></div></a>
+          </div>
         </div>
-        <div className="column">
-          <a href="https://www.google.com"><div className="invibutton"></div></a>
-        </div>
-      </div>
       </div>
     );
   }

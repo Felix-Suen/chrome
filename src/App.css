@@ -17,9 +17,6 @@ div.background {
   display: flex;
   flex-direction: column;
   flex-basis: 100%;
-  flex: 1;
-  border: none;
-  outline: none;
 }
 
 h1.day {
@@ -35,8 +32,7 @@ h1.day {
   background: none;
   border: none;
   outline: none;
-  width: 500px;
-  height: 500px;
+  height: 400px;
 }
 
 
