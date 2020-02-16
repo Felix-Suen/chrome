@@ -7,6 +7,7 @@ class App extends React.Component {
     super(props);
     this.state = {
       daynum: this.Daynum(),
+      urls: ['https://www.google.com', 'https://mail.google.com/', 'https://www.youtube.com'],
     }
   }
 
@@ -40,11 +41,29 @@ class App extends React.Component {
               1: "https://cdn2.iconfinder.com/data/icons/colored-fast-food-1/512/fast_food-26-512.png",
               2: "https://cdn.iconscout.com/icon/premium/png-256-thumb/papaya-50-911411.png"}}
           how={70}
-          time={20}
+          time={100}
           size={'100px'}
-          background={'#035973'}
+          background={'#191970'}
         />
         <h1 className="day">{this.state.daynum} Days</h1>
+        
+        <div className="row">
+          <div className="column">
+            <a href="https://www.google.com"><div className="invibutton"></div></a>
+          </div>
+          <div className="column">
+            <a href="https://www.google.com"><div className="invibutton"></div></a>
+          </div>
+        </div>
+
+        <div className="row">
+        <div className="column">
+          <a href="https://www.google.com"><div className="invibutton"></div></a>
+        </div>
+        <div className="column">
+          <a href="https://www.google.com"><div className="invibutton"></div></a>
+        </div>
+      </div>
       </div>
     );
   }
