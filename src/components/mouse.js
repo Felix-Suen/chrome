@@ -46,11 +46,10 @@ class Mouse extends React.Component {
           </div>
           <div className="shape2">
           </div>
-          <p>Move your mouse or finger around</p>
+          <p>{this.props.days}</p>
         </div>
       )
     }
-  
   }
   
   export default Mouse;

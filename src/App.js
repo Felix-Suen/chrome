@@ -1,13 +1,12 @@
 import React from 'react';
 import './App.css';
-import Sky from 'react-sky';
 import Mouse from './components/mouse';
 
 class App extends React.Component {
   constructor (props) {
     super(props);
     this.state = {
-      daynum: this.Daynum(),
+      daynum: this.Daynum() + ' Days',
     }
   }
 
@@ -36,9 +35,7 @@ class App extends React.Component {
     return(
       <div className="background">
 
-        <Mouse />
-
-        <h1 className="day">{this.state.daynum} Days</h1>
+      <Mouse days={this.state.daynum}/>
 
         <div className="row">
           <div className="column">
