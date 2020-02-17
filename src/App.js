@@ -1,13 +1,13 @@
 import React from 'react';
 import './App.css';
 import Sky from 'react-sky';
+import Mouse from './components/mouse';
 
 class App extends React.Component {
   constructor (props) {
     super(props);
     this.state = {
       daynum: this.Daynum(),
-      urls: ['https://www.google.com', 'https://mail.google.com/', 'https://www.youtube.com'],
     }
   }
 
@@ -35,16 +35,9 @@ class App extends React.Component {
   render() {
     return(
       <div className="background">
-        <Sky
-          images={{
-              0: "https://cdn2.iconfinder.com/data/icons/food-drink-60/50/1F954-potato-512.png",
-              1: "https://cdn2.iconfinder.com/data/icons/colored-fast-food-1/512/fast_food-26-512.png",
-              2: "https://cdn.iconscout.com/icon/premium/png-256-thumb/papaya-50-911411.png"}}
-          how={70}
-          time={100}
-          size={'100px'}
-          background={'#191970'}
-        />
+
+        <Mouse />
+
         <h1 className="day">{this.state.daynum} Days</h1>
 
         <div className="row">
