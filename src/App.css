@@ -1,3 +1,7 @@
+html, body {
+  overflow: hidden;
+}
+
 .background {
   min-height: 100vh;
   display: flex;
@@ -24,12 +28,13 @@
   background: none;
   border: none;
   outline: none;
-  height: 400px;
+  height: calc(100vh / 2);
+  text-align: center;
+  border-radius: 8px;
 }
-
 
 .invibutton:hover {
   cursor: pointer;
+  background-color: #1182ce;
   box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
-  background-color: #118fe2;
 }

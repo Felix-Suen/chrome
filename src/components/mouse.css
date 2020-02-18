@@ -22,7 +22,8 @@ body {
   border-radius: 10px;
 }
 .wrapper .shape {
-  background: #457b9d;
+
+  background: #e9793d;
   border-radius: 10px;
   width: 200px;
   height: 300px;
@@ -44,4 +45,6 @@ body {
 }
 .wrapper p {
   text-align: center;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  color: #1d3557;
 }
