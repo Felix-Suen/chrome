@@ -35,13 +35,13 @@ class App extends React.Component {
                 <div className="row">
 
                     <div className="column">
-                        <a href="https://owl.uwo.ca/portal">
+                        <a href="https://www.notion.so/">
                             <div className="invibutton"></div>
                         </a>
                     </div>
 
                     <div className="column">
-                        <a href="https://outlook.office.com/mail/inbox">
+                        <a href="https://learn.uwaterloo.ca/d2l/home">
                             <div className="invibutton"></div>
                         </a>
                     </div>
@@ -50,7 +50,7 @@ class App extends React.Component {
                 <div className="row">
 
                     <div className="column">
-                        <a href="https://drive.google.com/drive/u/0/my-drive">
+                        <a href="https://github.com/Felix-Suen">
                             <div className="invibutton"></div>
                         </a>
                     </div>
