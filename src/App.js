@@ -35,7 +35,11 @@ class App extends React.Component {
                 <div className="row">
 
                     <div className="column">
+<<<<<<< HEAD
                         <a href="https://www.notion.so/">
+=======
+                        <a href="https://www.messenger.com">
+>>>>>>> 34d948e511004c4b52a920f93e3f502dfc24e2f1
                             <div className="invibutton"></div>
                         </a>
                     </div>
@@ -50,7 +54,11 @@ class App extends React.Component {
                 <div className="row">
 
                     <div className="column">
+<<<<<<< HEAD
                         <a href="https://github.com/Felix-Suen">
+=======
+                        <a href="https://www.youtube.com">
+>>>>>>> 34d948e511004c4b52a920f93e3f502dfc24e2f1
                             <div className="invibutton"></div>
                         </a>
                     </div>
