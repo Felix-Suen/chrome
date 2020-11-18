@@ -2,6 +2,11 @@ import React from 'react';
 import './App.css';
 import Mouse from './components/mouse';
 
+const topLeft = 'https://outlook.office.com/mail/inbox';
+const topRight = 'https://github.com/Felix-Suen';
+const bottomLeft = 'https://learn.uwaterloo.ca/d2l/home';
+const bottomRight = 'https://mail.google.com/mail/ca/u/0/#inbox';
+
 class App extends React.Component {
     constructor(props) {
         super(props);
@@ -35,13 +40,13 @@ class App extends React.Component {
                 <div className="row">
 
                     <div className="column">
-                        <a href="https://outlook.office.com/mail/inbox">
+                        <a href={topLeft}>
                             <div className="invibutton"></div>
                         </a>
                     </div>
 
                     <div className="column">
-                        <a href="https://learn.uwaterloo.ca/d2l/home">
+                        <a href={bottomLeft}>
                             <div className="invibutton"></div>
                         </a>
                     </div>
@@ -50,12 +55,12 @@ class App extends React.Component {
                 <div className="row">
 
                     <div className="column">
-                        <a href="https://github.com/Felix-Suen">
+                        <a href={topRight}>
                             <div className="invibutton"></div>
                         </a>
                     </div>
                     <div className="column">
-                        <a href="https://mail.google.com/mail/ca/u/0/#inbox">
+                        <a href={bottomRight}>
                             <div className="invibutton"></div>
                         </a>
                     </div>
